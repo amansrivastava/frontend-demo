@@ -1,0 +1,24 @@
+uuid: 5412c4bf-35b5-492d-9db0-481f39cf779c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_locations
+  module:
+    - views
+  theme:
+    - stark
+id: views_block__featured_locations_block_1
+theme: stark
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:featured_locations-block_1'
+settings:
+  id: 'views_block:featured_locations-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

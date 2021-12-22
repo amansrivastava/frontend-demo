@@ -1,0 +1,11 @@
+project:
+  machine_name: app
+drupal:
+  db:
+    host: database
+    username: drupal9
+    password: drupal9
+    database: drupal9
+git: false
+cm:
+  strategy: core-only

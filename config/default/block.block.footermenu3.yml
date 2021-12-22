@@ -1,0 +1,25 @@
+uuid: 4f871c82-0448-4f71-8765-466d66ce52aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-3
+  module:
+    - system
+  theme:
+    - stark
+id: footermenu3
+theme: stark
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-menu-3'
+settings:
+  id: 'system_menu_block:footer-menu-3'
+  label: 'Menu 3'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

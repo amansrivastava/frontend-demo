@@ -1,0 +1,56 @@
+uuid: 291f6516-a41e-4a41-bdc0-e633b3b66046
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slider
+    - field.field.node.location.body
+    - field.field.node.location.field_cover_image
+    - field.field.node.location.field_cta
+    - field.field.node.location.field_is_featured
+    - field.field.node.location.field_subtitle
+    - field.field.node.location.field_tags
+    - node.type.location
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.location.slider
+targetEntityType: node
+bundle: location
+mode: slider
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cover_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_cta:
+    weight: 2
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  field_is_featured: true
+  field_subtitle: true
+  field_tags: true
+  links: true

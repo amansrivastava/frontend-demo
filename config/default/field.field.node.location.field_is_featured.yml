@@ -1,0 +1,23 @@
+uuid: da5c64b8-5e95-45a5-907a-63d8380280c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_featured
+    - node.type.location
+id: node.location.field_is_featured
+field_name: field_is_featured
+entity_type: node
+bundle: location
+label: 'Is Featured ?'
+description: 'Featured locations will be available in featured view.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

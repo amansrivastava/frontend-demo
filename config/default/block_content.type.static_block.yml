@@ -1,0 +1,8 @@
+uuid: 3b89a6b0-a6d5-46c5-80c6-a1b194ed7311
+langcode: en
+status: true
+dependencies: {  }
+id: static_block
+label: 'Static Block'
+revision: 0
+description: 'A standard static block for putting things together.'

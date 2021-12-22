@@ -1,0 +1,32 @@
+uuid: bb15bf94-37ca-41f7-bb76-cba8a88decc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.static_block
+    - field.field.block_content.static_block.body
+    - field.field.block_content.static_block.field_banner_media
+  module:
+    - text
+id: block_content.static_block.default
+targetEntityType: block_content
+bundle: static_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_banner_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }
